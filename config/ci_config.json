@@ -12,7 +12,7 @@
         "requiredFiles": []
     },
     "buildArtifacts": {
-        "build_setup_cmd": "npm install && npm postinstall",
+        "build_setup_cmd": "npm install",
         "build_cmd": "hugo -D"
     },
     "livePreview": {

@@ -1,0 +1,22 @@
+{
+    "artifactStructure": {
+        "assets": [
+            {
+                "root": "public"
+            }
+        ]
+    },
+    "base_image_tag": "node-12.18",
+    "dependencies": {
+        "installDepsCmd": "echo install",
+        "requiredFiles": []
+    },
+    "buildArtifacts": {
+        "build_setup_cmd": "echo setup",
+        "build_cmd": "hugo -D"
+    },
+    "livePreview": {
+        "serve_setup_cmd": "echo setup",
+        "serve_cmd": "echo serve"
+    }
+}
